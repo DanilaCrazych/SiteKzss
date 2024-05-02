@@ -1,0 +1,123 @@
+body {
+  background-color: #1e1e1e;
+}
+
+.logotip {
+  display: flex;
+  float: left;
+  margin-left: 20px;
+  padding-bottom: 20px;
+}
+
+.logoText {
+  color: #8e8e8e;
+  font-size: 19px;
+  font-weight: bold;
+  padding-left: 20px;
+}
+
+.sidenav {
+  display: flex;
+  border-right: solid 1px;
+  border-color: #2e2e2e;
+  flex-direction: column;
+  height: 100%;
+  width: 250px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #1e1e1e;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+
+.name_hide_task {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.name_Task {
+  font-size: 18px;
+  color: #ffffff;
+}
+
+.str {
+  position: relative;
+  width: 20px;
+}
+
+.left_str {
+  position: absolute;
+  content: '';
+  width: 10px;
+  height: 1px;
+  background-color: #FFF;
+  /* top: 10px; */
+  left: 5px;
+  transition: 0.5s;
+  transform: rotate(45deg);
+}
+
+.right_str {
+  position: absolute;
+  content: '';
+  width: 10px;
+  height: 1px;
+  background-color: #FFF;
+  /* top: 10px; */
+  left: 12px;
+  transition: 0.5s;
+  transform: rotate(-45deg);
+}
+
+.left_info_block {
+  font-size: 20px;
+  padding-top: 5px;
+  padding-left: 60px;
+  display: none;
+  color: #8e8e8e;
+}
+
+.left_info_block a{
+  padding-top: 20px;
+  display: none;
+  text-decoration: none;
+  color: #8e8e8e;
+}
+
+.left_panel_label {
+  z-index: 5;
+  transition: 0.2s;
+  font-size: 26px;
+  color: #8e8e8e;
+  font-weight: bold;
+  /* padding-left: 7px; */
+  display: flex;
+}
+
+.label_fon_menu {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* Центрирование по вертикали */
+  text-align: center;
+  width: 200px;
+  height: 35px;
+  left: 25px;
+  z-index: 4;
+  border-radius: 7px;
+}
+
+.label_fon_menu:hover {
+  transition: 0.2s;
+  background-color: #8e8e8e50;
+}
+
+.label_fon_menu:hover .left_panel_label {
+  transition: 0.2s;
+  color: #ffffff;
+}

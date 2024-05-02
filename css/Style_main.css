@@ -1,0 +1,81 @@
+body {
+  background-color: #1e1e1e;
+}
+
+.main {
+  margin-left: 160px;
+  font-size: 28px;
+  padding: 0px 10px;
+}
+
+.main_page {
+  padding-left: 250px;
+}
+
+.top_panel {
+  padding-top: 10px;
+}
+
+.top_panel_a {
+  font-size: 24px;
+  font-weight: bold;
+  color: #8e8e8e;
+}
+
+.tasks {
+  display: flex;
+  padding-top: 10px;
+}
+
+.name_hide_task {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.name_Task {
+  font-size: 18px;
+  color: #ffffff;
+}
+
+.str {
+  position: relative;
+  width: 20px;
+}
+
+.left_str {
+  position: absolute;
+  content: '';
+  width: 10px;
+  height: 1px;
+  background-color: #FFF;
+  /* top: 10px; */
+  left: 5px;
+  transition: 0.5s;
+  transform: rotate(45deg);
+}
+
+.right_str {
+  position: absolute;
+  content: '';
+  width: 10px;
+  height: 1px;
+  background-color: #FFF;
+  /* top: 10px; */
+  left: 12px;
+  transition: 0.5s;
+  transform: rotate(-45deg);
+}
+
+.info_block {
+  display: none;
+  color: #8e8e8e;
+}
+
+.opisanie {
+  color: #8e8e8e;
+}
+
+.date_finish {
+  color: #8e8e8e;
+}
